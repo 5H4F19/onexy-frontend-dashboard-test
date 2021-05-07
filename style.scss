@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to top left, #EB3349, #F45C43);
+    height: 100vh;
+}
+
+.box{
+    margin-top: 20px;
+    border: 1px rgb(207, 207, 207) solid !important;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    &:hover{
+        box-shadow: 1px 2px 15px rgba(55, 222, 252, 0.76);
+    }
+
+}
+.box--1  {
+  @extend .box;
+  padding: 10%;
+}
+.baton{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: rgba(55, 222, 252, 0.76);
+    outline: none;
+    border: none;
+    border:0.1em white solid !important;
+    box-shadow: 1px 2px 15px solid black !important;
+}
+
+input[type=text]{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    border-left:15px solid gold;
+}
+input[type=color]{
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+    border-left: 15px solid gold;
+}
